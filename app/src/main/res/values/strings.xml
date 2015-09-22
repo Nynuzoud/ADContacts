@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ADContacts</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="arrow_descr">arrow</string>
+    <string name="LoadingErrorText">Во время загрузки произошла ошибка.\nПроверьте ваше соединение.</string>
+    <string name="FIO">ФИО:</string>
+    <string name="errorText">Ошибка!</string>
+    <string name="okText">OK</string>
+    <string name="errorNetworkText">Отсутствует подключение к сети. Проверьте Ваше соединение</string>
+    <string name="errorNetworkTitle">Ошибка сети!</string>
+    <string name="setupLoginPasswordTitle">Введите логин и пароль</string>
+    <string name="loginText">Логин</string>
+    <string name="passwordText">Пароль</string>
+    <string name="resetSettings">Сбросить настройки</string>
+    <string name="resetSettingsCompletedText">Настройки сброшены</string>
+</resources>

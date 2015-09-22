@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:weightSum="1">
+
+    <TextView android:id="@+id/CONTACTS_NAME_CELL"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:singleLine="false"
+        android:textSize="18sp"
+        android:gravity="start|center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageView2"
+        android:layout_toStartOf="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/ic_arrow"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/imageView2"
+        android:contentDescription="@string/arrow_descr" />
+</RelativeLayout>
