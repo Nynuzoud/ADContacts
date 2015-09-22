@@ -102,8 +102,8 @@ public class ContactsList extends AppCompatActivity {
                             contacts();
                         }
                     })
+                    .setCancelable(false)
                     .show();
-        setupDialog.setCancelable(false);
     }
 
     private void contacts() {
