@@ -13,7 +13,7 @@ android {
     }
     signingConfigs {
         release {
-            storeFile file('C:/Users/Sergey/AndroidStudioProjects/ADContacts/app/adcontacts.keystore')
+            storeFile file('adcontacts.keystore')
             storePassword "3065138XYZB"
             keyAlias "adcontacts"
             keyPassword "3065138XYZB"
